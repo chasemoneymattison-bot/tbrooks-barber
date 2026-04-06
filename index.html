@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>T. Brooks Quality Cuts | Premium Barbershop in Seattle</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <div class="loader">
+      <div class="loader-blade"></div>
+      <div class="loader-blade"></div>
+      <div class="loader-blade"></div>
+    </div>
+    <p class="loader-text">T. BROOKS</p>
+  </div>
+
+  <!-- Navigation -->
+  <nav id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <img src="images/logo.png" alt="T. Brooks Quality Cuts" class="nav-logo-img" />
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#beforeafter">B&A</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="#" class="nav-cta" data-booking>Book Now</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Marquee -->
+  <div class="marquee">
+    <div class="marquee-content">
+      <span>WALK-INS WELCOME</span>
+      <span class="marquee-sep">&diams;</span>
+      <span>QUALITY CUTS SINCE DAY ONE</span>
+      <span class="marquee-sep">&diams;</span>
+      <span>ALL HAIR TEXTURES</span>
+      <span class="marquee-sep">&diams;</span>
+      <span>COLUMBIA CITY, SEATTLE</span>
+      <span class="marquee-sep">&diams;</span>
+      <span>WALK-INS WELCOME</span>
+      <span class="marquee-sep">&diams;</span>
+      <span>QUALITY CUTS SINCE DAY ONE</span>
+      <span class="marquee-sep">&diams;</span>
+      <span>ALL HAIR TEXTURES</span>
+      <span class="marquee-sep">&diams;</span>
+      <span>COLUMBIA CITY, SEATTLE</span>
+      <span class="marquee-sep">&diams;</span>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-particles" id="particles"></div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">EST. SEATTLE, WA</div>
+      <h1 class="hero-title reveal">
+        <span class="hero-line">T. BROOKS</span>
+        <span class="hero-line accent">QUALITY CUTS</span>
+      </h1>
+      <p class="hero-subtitle reveal">One Cut at a Time. Done Right the First Time.</p>
+      <div class="hero-buttons reveal">
+        <a href="#" class="btn btn-primary" data-booking>
+          <span>Book Appointment</span>
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+        <a href="#services" class="btn btn-outline">View Services</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-mouse">
+        <div class="scroll-wheel"></div>
+      </div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">ABOUT US</span>
+        <h2 class="section-title">Craftsmanship Meets <span class="accent">Precision</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-image reveal-left">
+          <img src="images/logo.png" alt="T. Brooks Quality Cuts" class="about-logo" />
+        </div>
+        <div class="about-content reveal-right">
+          <div class="about-divider"></div>
+          <p>My specialty is being able to cut all hair textures and make sure that every single client is happy with the results of what they are asking for.</p>
+          <p>I take pride in my work and making sure it is done right the first time. One cut at a time. Here we aim to make sure that you don't leave the same way that you came in.</p>
+          <div class="about-stats">
+            <div class="stat">
+              <span class="stat-number" data-count="56">0</span>
+              <span class="stat-label">Yelp Reviews</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">4.4</span>
+              <span class="stat-label">Star Rating</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">All</span>
+              <span class="stat-label">Hair Textures</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section section-dark">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">WHAT WE OFFER</span>
+        <h2 class="section-title">Our <span class="accent">Services</span></h2>
+        <p class="section-desc">Premium grooming services tailored to your style</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17.5 2.5L23 8l-5.5 5.5M6.5 2.5L1 8l5.5 5.5M14 2l-4 20"/></svg>
+          </div>
+          <h3>Men's Haircut</h3>
+          <p>Full haircut with wash if desired. Fades, tapers, and classic styles.</p>
+          <span class="service-price">$40</span>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 12l2 2 4-4"/></svg>
+          </div>
+          <h3>Haircut + Beard Trim</h3>
+          <p>Complete grooming with precision beard trim and sharp lines.</p>
+          <span class="service-price">$35</span>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/><path d="M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3>Line Up</h3>
+          <p>Crisp edges and clean lines. Basic line up with beard clean up.</p>
+          <span class="service-price">$20</span>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M12 8v8M8 12h8"/></svg>
+          </div>
+          <h3>Children's Cut</h3>
+          <p>Gentle and patient cuts for the little ones. All styles welcome.</p>
+          <span class="service-price">$20</span>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4l16 16M20 4L4 20"/><circle cx="12" cy="12" r="2"/></svg>
+          </div>
+          <h3>Head Shave</h3>
+          <p>Smooth, clean head shave with hot towel treatment.</p>
+          <span class="service-price">Ask</span>
+        </div>
+        <div class="service-card reveal">
+          <div class="service-icon">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v6l4 2"/></svg>
+          </div>
+          <h3>Lock Maintenance</h3>
+          <p>Full lock maintenance with wash. Keep your locks looking fresh.</p>
+          <span class="service-price">$80</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parallax Divider -->
+  <section class="parallax-divider">
+    <div class="parallax-overlay"></div>
+    <div class="parallax-content reveal">
+      <h2>"Professional and friendly, able to spark a respectful conversation on any topic."</h2>
+      <p>&mdash; Highlighted in 37 reviews</p>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">OUR WORK</span>
+        <h2 class="section-title">The <span class="accent">Gallery</span></h2>
+        <p class="section-desc">Quality craftsmanship, every single cut</p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item reveal">
+          <img src="images/gallery-1.jpg" alt="Wave Taper Blend" />
+        </div>
+        <div class="gallery-item reveal">
+          <img src="images/gallery-2.jpg" alt="Skin Tight Mid Fade" />
+        </div>
+        <div class="gallery-item reveal">
+          <img src="images/gallery-3.jpg" alt="Beard Trim & Line Up" />
+        </div>
+        <div class="gallery-item reveal">
+          <img src="images/gallery-4.jpg" alt="All Even With The Grain" />
+        </div>
+        <div class="gallery-item reveal">
+          <img src="images/gallery-5.jpg" alt="Soft Razor Line Up" />
+        </div>
+        <div class="gallery-item reveal">
+          <img src="images/gallery-6.jpg" alt="Mid Fade + Beard" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Before & After Section -->
+  <section id="beforeafter" class="section section-dark">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">THE TRANSFORMATION</span>
+        <h2 class="section-title">Before & <span class="accent">After</span></h2>
+        <p class="section-desc">Drag the slider to see the difference</p>
+      </div>
+      <div class="ba-grid">
+
+        <div class="ba-card reveal">
+          <div class="ba-slider" data-ba>
+            <div class="ba-before">
+              <img src="images/before-1.jpg" alt="Before" />
+              <span class="ba-label ba-label-before">Before</span>
+            </div>
+            <div class="ba-after">
+              <img src="images/after-1.jpg" alt="After" />
+              <span class="ba-label ba-label-after">After</span>
+            </div>
+            <div class="ba-handle">
+              <div class="ba-handle-line"></div>
+              <div class="ba-handle-circle">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M8 4l-6 8 6 8"/><path d="M16 4l6 8-6 8"/></svg>
+              </div>
+              <div class="ba-handle-line"></div>
+            </div>
+          </div>
+          <p class="ba-caption">Beard & Hairline Cleanup</p>
+        </div>
+
+        <div class="ba-card reveal">
+          <div class="ba-slider" data-ba>
+            <div class="ba-before">
+              <img src="images/before-2.jpg" alt="Before" />
+              <span class="ba-label ba-label-before">Before</span>
+            </div>
+            <div class="ba-after">
+              <img src="images/after-2.jpg" alt="After" />
+              <span class="ba-label ba-label-after">After</span>
+            </div>
+            <div class="ba-handle">
+              <div class="ba-handle-line"></div>
+              <div class="ba-handle-circle">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M8 4l-6 8 6 8"/><path d="M16 4l6 8-6 8"/></svg>
+              </div>
+              <div class="ba-handle-line"></div>
+            </div>
+          </div>
+          <p class="ba-caption">Wave Taper Blend + Beard</p>
+        </div>
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews Section -->
+  <section id="reviews" class="section section-dark">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-tag">TESTIMONIALS</span>
+        <h2 class="section-title">What Clients <span class="accent">Say</span></h2>
+      </div>
+      <div class="reviews-slider">
+        <div class="review-card reveal">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Just moved to Columbia City and super nervous about trying out a new barber. Tony listened to everything I was looking for and got it right on the first time. I've been going every 2 weeks ever since."</p>
+          <div class="review-author">
+            <span class="review-name">C.F.</span>
+            <span class="review-source">Yelp Review</span>
+          </div>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"He cut my hair the way I wanted, and there weren't any surprises when I looked in the mirror. The barbershop environment is professional. Really happy I tried this shop!"</p>
+          <div class="review-author">
+            <span class="review-name">Bea R.</span>
+            <span class="review-source">Yelp Review</span>
+          </div>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Great cut! Tony did a great job and is just an all around nice guy. He fit me in and gave me a nice fade. Reasonable prices and great quality of service."</p>
+          <div class="review-author">
+            <span class="review-name">Jonathan H.</span>
+            <span class="review-source">Yelp Review</span>
+          </div>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Amazing place. Not your average barbershop... Everything about this place is warm and welcoming. The hair cut was quick and nice. 10/10 experience."</p>
+          <div class="review-author">
+            <span class="review-name">Sabontu J.</span>
+            <span class="review-source">Yelp Review</span>
+          </div>
+        </div>
+        <div class="review-card reveal">
+          <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p>"Been in the area for 2 years and have struggled to find a good barber. It was a great experience. Tony was very attentive and gave me the best haircut I've had in a while."</p>
+          <div class="review-author">
+            <span class="review-name">Kentrell O.</span>
+            <span class="review-source">Yelp Review</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact / Location Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info reveal-left">
+          <span class="section-tag">GET IN TOUCH</span>
+          <h2 class="section-title">Visit <span class="accent">Us</span></h2>
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div>
+                <h4>Location</h4>
+                <p>5222 Rainier Ave S<br />Seattle, WA 98118<br />Columbia City</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <p><a href="tel:2062720379">(206) 272-0379</a></p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-icon">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              </div>
+              <div>
+                <h4>Hours</h4>
+                <div class="hours-table">
+                  <div class="hours-row"><span>Mon - Fri</span><span>9:30 AM - 6:15 PM</span></div>
+                  <div class="hours-row"><span>Saturday</span><span>8:30 AM - 6:30 PM</span></div>
+                  <div class="hours-row"><span>Sunday</span><span>Closed</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn btn-primary btn-lg" data-booking>
+            <span>Book Appointment</span>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+        <div class="contact-right reveal-right">
+          <div class="contact-storefront">
+            <img src="images/hero-bg.jpg" alt="T. Brooks Quality Cuts Storefront" />
+          </div>
+          <div class="contact-map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2694.5!2d-122.2875!3d47.5575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDfCsDMzJzI3LjAiTiAxMjLCsDE3JzE1LjAiVw!5e0!3m2!1sen!2sus!4v1680000000000"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <img src="images/logo.png" alt="T. Brooks Quality Cuts" class="footer-logo" />
+          <p>One cut at a time. Done right the first time.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <a href="#about">About</a>
+          <a href="#services">Services</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#reviews">Reviews</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-links">
+          <h4>Services</h4>
+          <a href="#services">Haircut</a>
+          <a href="#services">Line Up</a>
+          <a href="#services">Beard Trim</a>
+          <a href="#services">Head Shave</a>
+          <a href="#services">Children's Cut</a>
+        </div>
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="https://www.yelp.com/biz/t-brooks-quality-cuts-seattle" target="_blank" rel="noopener" aria-label="Yelp" class="social-link">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12.871 13.927l2.395 3.283c.109.149.153.333.12.509a.627.627 0 01-.297.411l-2.098 1.275a.63.63 0 01-.507.074.627.627 0 01-.381-.298l-1.555-2.927a.627.627 0 01.437-.907l1.886-.42zm-1.79-1.054l-3.94.878a.627.627 0 01-.721-.365l-.94-2.299a.627.627 0 01.546-.866l4.065-.174a.627.627 0 01.605.876l-1.09 1.595a.627.627 0 01-.525.355zm.919-3.173L9.5 5.75a.627.627 0 01.148-.68l1.82-1.6A.627.627 0 0112.5 3.8l1.037 4.574a.627.627 0 01-.537.726z"/></svg>
+            </a>
+          </div>
+          <p class="footer-address">5222 Rainier Ave S, Seattle, WA 98118</p>
+          <p class="footer-phone"><a href="tel:2062720379">(206) 272-0379</a></p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 T. Brooks Quality Cuts. All rights reserved.</p>
+        <p>Walk-ins Welcome &bull; Columbia City, Seattle</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Booking Modal -->
+  <div class="booking-overlay" id="bookingOverlay"></div>
+  <div class="booking-modal" id="bookingModal">
+    <button class="booking-close" id="bookingClose" aria-label="Close">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 6L6 18M6 6l12 12"/></svg>
+    </button>
+
+    <!-- Step 1: Service Selection -->
+    <div class="booking-step" id="bookingStep1">
+      <h2>Request an Appointment</h2>
+      <p class="booking-subtitle">Select a service to get started</p>
+      <div class="booking-services">
+        <label class="booking-service-option">
+          <input type="radio" name="service" value="Haircut - $40" />
+          <div class="booking-service-card">
+            <span class="booking-service-name">Men's Haircut</span>
+            <span class="booking-service-price">$40</span>
+          </div>
+        </label>
+        <label class="booking-service-option">
+          <input type="radio" name="service" value="Haircut + Beard Trim - $35" />
+          <div class="booking-service-card">
+            <span class="booking-service-name">Haircut + Beard Trim</span>
+            <span class="booking-service-price">$35</span>
+          </div>
+        </label>
+        <label class="booking-service-option">
+          <input type="radio" name="service" value="Line Up - $20" />
+          <div class="booking-service-card">
+            <span class="booking-service-name">Line Up</span>
+            <span class="booking-service-price">$20</span>
+          </div>
+        </label>
+        <label class="booking-service-option">
+          <input type="radio" name="service" value="Children's Cut - $20" />
+          <div class="booking-service-card">
+            <span class="booking-service-name">Children's Cut</span>
+            <span class="booking-service-price">$20</span>
+          </div>
+        </label>
+        <label class="booking-service-option">
+          <input type="radio" name="service" value="Head Shave" />
+          <div class="booking-service-card">
+            <span class="booking-service-name">Head Shave</span>
+            <span class="booking-service-price">Ask</span>
+          </div>
+        </label>
+        <label class="booking-service-option">
+          <input type="radio" name="service" value="Lock Maintenance - $80" />
+          <div class="booking-service-card">
+            <span class="booking-service-name">Lock Maintenance</span>
+            <span class="booking-service-price">$80</span>
+          </div>
+        </label>
+      </div>
+      <button class="btn btn-primary booking-next" id="toStep2" disabled>
+        <span>Continue</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+
+    <!-- Step 2: Date & Time -->
+    <div class="booking-step hidden" id="bookingStep2">
+      <button class="booking-back" id="backTo1">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Back
+      </button>
+      <h2>Pick a Date & Time</h2>
+      <p class="booking-subtitle">Choose your preferred appointment</p>
+      <div class="booking-fields">
+        <div class="booking-field">
+          <label for="bookDate">Preferred Date</label>
+          <input type="date" id="bookDate" required />
+        </div>
+        <div class="booking-field">
+          <label for="bookTime">Preferred Time</label>
+          <select id="bookTime" required>
+            <option value="" disabled selected>Select a time</option>
+            <option>9:30 AM</option>
+            <option>10:00 AM</option>
+            <option>10:30 AM</option>
+            <option>11:00 AM</option>
+            <option>11:30 AM</option>
+            <option>12:00 PM</option>
+            <option>12:30 PM</option>
+            <option>1:00 PM</option>
+            <option>1:30 PM</option>
+            <option>2:00 PM</option>
+            <option>2:30 PM</option>
+            <option>3:00 PM</option>
+            <option>3:30 PM</option>
+            <option>4:00 PM</option>
+            <option>4:30 PM</option>
+            <option>5:00 PM</option>
+            <option>5:30 PM</option>
+          </select>
+        </div>
+      </div>
+      <button class="btn btn-primary booking-next" id="toStep3" disabled>
+        <span>Continue</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+
+    <!-- Step 3: Contact Info -->
+    <div class="booking-step hidden" id="bookingStep3">
+      <button class="booking-back" id="backTo2">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 19l-7-7 7-7"/></svg>
+        Back
+      </button>
+      <h2>Your Info</h2>
+      <p class="booking-subtitle">We'll confirm your appointment</p>
+      <div class="booking-fields">
+        <div class="booking-field">
+          <label for="bookName">Full Name</label>
+          <input type="text" id="bookName" placeholder="Your name" required />
+        </div>
+        <div class="booking-field">
+          <label for="bookPhone">Phone Number</label>
+          <input type="tel" id="bookPhone" placeholder="(206) 555-0000" required />
+        </div>
+        <div class="booking-field">
+          <label for="bookNotes">Notes (optional)</label>
+          <textarea id="bookNotes" rows="3" placeholder="Anything Tony should know?"></textarea>
+        </div>
+      </div>
+      <button class="btn btn-primary booking-next" id="submitBooking">
+        <span>Request Appointment</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+      </button>
+    </div>
+
+    <!-- Step 4: Confirmation -->
+    <div class="booking-step hidden" id="bookingStep4">
+      <div class="booking-confirmation">
+        <div class="booking-check">
+          <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 6L9 17l-5-5"/></svg>
+        </div>
+        <h2>Request Sent!</h2>
+        <p class="booking-subtitle">Tony will confirm your appointment shortly. You can also call directly:</p>
+        <a href="tel:2062720379" class="btn btn-primary">
+          <span>Call (206) 272-0379</span>
+        </a>
+        <div class="booking-summary" id="bookingSummary"></div>
+      </div>
+    </div>
+
+    <!-- Progress bar -->
+    <div class="booking-progress">
+      <div class="booking-progress-bar" id="bookingProgress"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
